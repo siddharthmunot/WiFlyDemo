@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:theme="@style/AppTheme">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafafa"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginTop="88dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/icon_image1"
+                android:src="@drawable/intro1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/icon_image2"/>
+
+        </FrameLayout>
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/intro_view_pager"
+            android:layout_gravity="right|center_vertical"
+            />
+
+
+
+        <!-- android:background="@drawable/regbtn_states"-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_pages"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="26dp">
+
+            <FrameLayout
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:background="#bbbbbb"/>
+
+            <FrameLayout
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:background="#bbbbbb"
+                android:layout_marginLeft="7dp"/>
+
+            <FrameLayout
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:background="#bbbbbb"
+                android:layout_marginLeft="7dp"/>
+
+
+        </LinearLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="175dp"
+        android:layout_height="62dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phoneNumber"
+        android:hint="Mobile Number"
+        android:layout_gravity="bottom|center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="58dp"
+        android:inputType="phone"
+        android:ems="3"
+        android:id="@+id/code"
+        android:text="+91"
+        android:layout_alignBottom="@+id/phoneNumber"
+        android:layout_toLeftOf="@+id/phoneNumber"
+        android:layout_toStartOf="@+id/phoneNumber" />
+
+   <!-- <Button
+        style="?android:attr/buttonStyleSmall"
+        android:background="@color/dark_blue"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:textColor="@color/white"
+        android:id="@+id/Go"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@+id/phoneNumber"
+        android:layout_toRightOf="@+id/phoneNumber"
+        android:layout_toEndOf="@+id/phoneNumber" /> -->
+
+    <ImageButton
+        android:id="@+id/Go"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/phoneNumber"
+        android:layout_toEndOf="@+id/phoneNumber"
+        android:layout_alignTop="@+id/phoneNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Go"
+        android:id="@+id/textView2"
+        android:layout_alignRight="@+id/Go"
+        android:layout_alignLeft="@+id/Go"
+        android:layout_alignBottom="@+id/Go"
+        android:layout_alignTop="@+id/Go"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_vertical|center_horizontal" />
+
+</RelativeLayout>
+    </FrameLayout>
+</ScrollView>
+
+
+
+
+

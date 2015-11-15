@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Please Confirm your Seat Number"
+        android:layout_weight="0.09" />
+
+    <EditText
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:text="J23"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapWords"
+        android:ems="4"
+        android:id="@+id/seatnumber"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

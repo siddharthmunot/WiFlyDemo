@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">WiFlyDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Page1Title">Wi-Fly</string>
+    <string name="Page2Title">Entertainment</string>
+    <string name="Page3Title">Food</string>
+    <string name="Page1Message">Connectivity on the <b>Go</b>. It is <b>free</b> and <b>secure</b>.</string>
+    <string name="Page2Message"><b>Wi-Fly:</b> Watch Movies, listen to Music, play games, by just connecting to our HotSpot</string>
+    <string name="Page3Message"><b>Wi-Fly:</b> Order your favourite Food.</string>
+    <string name="enter_phone_number">Please enter your phone number</string>
+    <string name="enter_country_code">Please enter your country code</string>
+    <string name="enter_valid_phone_number">Please enter a valid phone number</string>
+    <string name="enter_mobile_number">Mobile Number</string>
+    <string name="Go">Go</string>
+
+    -------- DLNA --------
+    <string name="app_version">1.0.7</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="info_searching">Reloading...</string>
+    <string name="info_errorlist_folders">Error while listening folders</string>
+    <string name="info_still_loading">The device is still being loaded, please wait and try again</string>
+    <string name="info_could_not_start_activity">Could not start activity (not sure why, please contact developer)</string>
+    <string name="info_no_handler">No application for handling this content type available</string>
+    <string name="info_folder">Folder</string>
+    <string name="info_file">File</string>
+    <string name="info_items">items</string>
+    <string name="info_no_wifi">Please enable your wireless connection</string>
+    <string name="settings_title_devices">Devices</string>
+    <string name="settings_validate_devices">Validate devices</string>
+    <string name="settings_validate_devices_description">Do additional validation before displaying a device (slower)</string>
+    <string name="settings_title_icons">Icons</string>
+    <string name="settings_show_icons">Display icons</string>
+    <string name="settings_show_icons_description">Display icons for folders and items</string>
+    <string name="settings_hide_file_icons">Hide icons for files</string>
+    <string name="settings_hide_file_icons_description">Hide icons for file entries</string>
+    <string name="settings_show_device_icons">Display device icons</string>
+    <string name="settings_show_device_icons_description">Download and display device icons</string>
+    <string name="settings_title_files">Files</string>
+    <string name="settings_show_extensions">Display file extensions</string>
+    <string name="settings_show_extensions_description">Append extensions to file names</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_developer">Developer</string>
+    <string name="settings_about_developer_name">WiMe</string>
+    <string name="settings_about_website">Website</string>
+    <string name="settings_about_website_url">https://WiMe.in</string>
+
+</resources>
